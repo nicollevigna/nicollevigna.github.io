@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:#b4fccc;
+  background-color: #b4fccc;
   overflow-y: auto;
   min-width: 190px;
 }
@@ -43,7 +43,7 @@ section {
 h2 {
   color: #8ca4a4;
   text-align: center;
-  font-size:medium;
+  font-size: medium;
   text-transform: uppercase;
 }
 
@@ -51,7 +51,10 @@ hr {
   border-top: 1px dashed #de6da3;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
   color: white;
 }
@@ -66,7 +69,7 @@ a:link, a:visited, a:hover, a:active {
   border: 0;
   border-radius: 10px;
   transition-duration: 0.4s;
-  opacity: 0,8;
+  opacity: 0, 8;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: white;
@@ -77,11 +80,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .instagram {
-  background-color: #C13584;
+  background-color: #c13584;
 }
 
 .instagram:hover {
-  background-color: #833AB4;
+  background-color: #833ab4;
 }
 
 .email {
@@ -93,11 +96,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .whatsapp {
-  background-color: #25D366;
+  background-color: #25d366;
 }
 
 .whatsapp:hover {
-  background-color: #128C7E;
+  background-color: #128c7e;
 }
 
 .caption {
