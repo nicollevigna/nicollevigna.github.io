@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#b4fccc;
+  overflow-y: auto;
+  min-width: 190px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 550px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 0.2em 0.2em 0.7em black;
+  margin: 1em 1em;
+  padding: 1em;
+}
+
+section {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h2 {
+  color: #8ca4a4;
+  text-align: center;
+  font-size:medium;
+  text-transform: uppercase;
+}
+
+hr {
+  border-top: 1px dashed #de6da3;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.button {
+  height: 40px;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  opacity: 0,8;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.instagram {
+  background-color: #C13584;
+}
+
+.instagram:hover {
+  background-color: #833AB4;
+}
+
+.email {
+  background-color: #a5b9ba;
+}
+
+.email:hover {
+  background-color: #8ca4a4;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.whatsapp:hover {
+  background-color: #128C7E;
+}
+
+.caption {
+  width: 100%;
+  text-align: center;
+  font-size: smaller;
+  color: #a5b9ba;
+}
