@@ -70,9 +70,9 @@ a:active {
   border-radius: 10px;
   transition-duration: 0.4s;
   opacity: 0, 8;
-  margin-bottom: 10px;
   text-transform: uppercase;
   color: white;
+  cursor: pointer;
 }
 
 .button:hover {
